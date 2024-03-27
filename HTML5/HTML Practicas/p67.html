@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P #67</title>
+    <style>
+        table {
+            border-collapse: collapse; /*separate*/
+            width: 90%;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 8px;
+            vertical-align: middle;
+        }
+        th {
+            height: 70px;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;} /*colorear las lineas impares*/
+        tr:nth-child(odd) {background-color: pink;} /* colorear las lineas pares */
+        tr:hover {background-color:yellow;} /*resalta de amarillo tr o td */
+
+        th {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Add a border to a table:</h2>
+    <p>Set the width of the table, and the height of the table header row:</p>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Swanson</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Cleveland</td>
+            <td>Brown</td>
+            <td>$250</td>
+        </tr>
+    </table>
+</body>
+</html>
